@@ -1,0 +1,10 @@
+@mixin media($key, $breakpoints: $grid-breakpoints) {
+  $breakpoint: map-get($breakpoints, $key);
+  @if ($breakpoint != 0) {
+    @media (min-width: $breakpoint) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@import "variables";
+@import "function/breakpoints";
+@import "mixin/breakpoints";
+
+//10刻み
+$start: 10;
+$step: 10;
+
+@import "margin";
+@import "padding";

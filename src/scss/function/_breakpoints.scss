@@ -1,0 +1,4 @@
+@function get-breakpoint($key, $breakpoints: $grid-breakpoints) {
+  $breakpoint: map-get($breakpoints, $key);
+  @return if($breakpoint != 0, "-#{$key}", "");
+}

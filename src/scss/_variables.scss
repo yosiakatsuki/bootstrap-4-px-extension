@@ -1,0 +1,13 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+//開始
+$start: 1 !default;
+//終了
+$end: 100 !default;
+//ステップ数
+$step: 1 !default;

@@ -1,0 +1,12 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media($breakpoint) {
+		$breakpoint : get-breakpoint($breakpoint);
+		$i: $start;
+		@while $i <= $end {
+			.fz-px#{$breakpoint}-#{$i} {
+				font-size: #{$i}px !important;
+			}
+			$i: $i + $step;
+		}
+	}
+}

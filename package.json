@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-4-px-extension",
+  "version": "1.0.0",
+  "author": "yosiakatuki",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1"
+  },
+  "scripts": {
+    "build": "gulp sass"
+  },
+  "dependencies": {}
+}
